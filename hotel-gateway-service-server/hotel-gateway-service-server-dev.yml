@@ -1,0 +1,11 @@
+example.property: "FROM GIT - I AM IN THE DEV"
+example.encrypted: "{cipher}c0cfad9106d237bd7ee8fdada2ff68d55799fb7392a6c8a3b2ae87886c6adb84070449ffcd5108212205143af021a60c0c6102f38f2f5e3a6ba9f9723b7e1ab2"
+zuul.ignored-services: "*"
+zuul.prefix:  /api
+zuul.routes.hotel-reservations-service: /reservations/**
+zuul.routes.hotel-rooms-service: /rooms/**
+zuul.routes.hotel-authentication-service: /auth/**
+management.endpoints.web.exposure.include: "*"
+spring.sleuth.sampler.probability: 1.0
+signing.key: "345345fsdfsf5345"
+
